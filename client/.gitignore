@@ -5,7 +5,7 @@ node_modules
 # clint files
 package.json
 package-lock.json
-public
+public/
 
 
 # local env files
