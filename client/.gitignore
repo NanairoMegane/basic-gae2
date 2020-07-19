@@ -4,7 +4,7 @@ node_modules
 
 # clint files
 package.json
-package-lock.hson
+package-lock.json
 public
 
 
