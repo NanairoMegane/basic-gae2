@@ -35,6 +35,14 @@ func main() {
 		handler.Get500(w)
 	})
 
+	r.Get("/api/err/info", func(w http.ResponseWriter, r *http.Request) {
+		handler.Get400WithInfoErr(w)
+	})
+
+	r.Get("/api/err/warning", func(w http.ResponseWriter, r *http.Request) {
+		handler.Get400WithWarningErr(w)
+	})
+
 	r.Get("/api/tasks", func(w http.ResponseWriter, r *http.Request) {
 		handler.GetTask(w)
 	})
