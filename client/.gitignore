@@ -3,10 +3,9 @@ node_modules
 /dist
 
 # clint files
-/client/assets
-/client/package.json
-/client/package-lock.hson
-/client/public
+package.json
+package-lock.hson
+public
 
 
 # local env files
