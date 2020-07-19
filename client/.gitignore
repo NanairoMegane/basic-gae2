@@ -2,6 +2,13 @@
 node_modules
 /dist
 
+# clint files
+/client/assets
+/client/package.json
+/client/package-lock.hson
+/client/public
+
+
 # local env files
 .env.local
 .env.*.local
