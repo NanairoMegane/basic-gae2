@@ -5,7 +5,7 @@ go 1.13
 require (
 	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/go-chi/cors v1.1.1
-	golang.org/x/net v0.0.0-20200625001655-4c5254603344 // indirect
+	golang.org/x/net v0.7.0 // indirect
 	local.NanairoMegane/db v0.0.0-00010101000000-000000000000
 	local.NanairoMegane/handler v0.0.0-00010101000000-000000000000
 )
